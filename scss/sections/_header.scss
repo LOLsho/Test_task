@@ -1,0 +1,59 @@
+.header .container {
+	background: white;
+}
+
+.heading {
+	padding: 15px 25px 20px;
+}
+
+.heading__calculate {
+	font-size: 23px;
+	color: #f36240;
+	border-bottom: 2px solid #f36240;
+	margin-left: 288px;
+	margin-top: auto;
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+
+.heading__contacts {
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: 15px;
+}
+
+.heading__time {
+	font-size: 16px;
+	text-align: right;
+}
+
+.heading__tel {
+	font-size: 31px;
+	margin-top: 5px;
+}
+
+.menu__list {
+	width: 100%;
+}
+
+.menu__item {
+	width: 20%;
+	text-align: center;
+	height: 57px;
+	border-right: 1px solid #5f6973;
+
+	&:last-child {
+		border-right: none;
+	}
+}
+
+.menu__link {
+	line-height: 57px;
+	font-size: 24px;
+	color: #484848;
+	text-decoration: none;
+
+	&:hover {
+		background: #7bc3d5;
+	}
+}

@@ -1,0 +1,142 @@
+.wrapper {
+	justify-content: space-between;
+
+	.content {
+		height: 610px;
+	}
+}
+
+.pick {
+	margin-top: 31px;
+}
+
+.pick__left {
+	width: 353px;
+	padding-left: 57px;
+}
+
+.pick__right {
+	width: 474px;
+}
+
+.pic {
+	position: relative;
+	width: 198px;
+
+	&:hover .pic__shade {
+		opacity: 1;
+		transition: 0.3s ease;
+	}
+}
+
+.pic__shade {
+	position: absolute;
+	background: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	opacity: 0;
+	transition: 0.3s ease;
+}
+
+.pic__magnifier {
+	width: 48px;
+	height: 48px;
+	margin: 0 auto;
+	margin-top: 140px;
+}
+
+.pic_link {
+	width: 48px;
+	margin: 0 auto;
+}
+
+.pick__desc {
+	font-size: 18px;
+	color: #a6a6a6;
+	margin-left: 33px;
+	margin-top: 40px;
+}
+
+.pick__item {
+	font-size: 14px;
+	margin-top: 11px;
+
+	&:first-child {
+		margin-top: 0px;
+	}
+}
+
+.dot {
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #eb5825;
+	display: inline-block;
+	margin-bottom: 3px;
+}
+
+.pick__offer {
+	font-size: 20px;
+	margin-top: 36px;
+}
+
+.colors {
+	margin-top: 22px;
+	height: 60px;
+	justify-content: space-between;
+	/*background: url("../img/colors.png") no-repeat center center;*/
+
+}
+
+.colors__item {
+	position: relative;
+	width: 60px;
+	height: 60px;
+	border: 1px solid white/*#a46834*/;
+	background: url("../img/wood.jpg") no-repeat center center/ cover;
+
+	
+	&:hover .colors__choice {
+		opacity: 1;
+		transition: 0.2s ease;
+	}
+
+	&:active .colors__choice {
+		opacity: 1;
+		transition: 0.2s ease;
+		background: rgba(0,0,0,0.2) url("../img/checkmark.png") no-repeat center center;
+	}
+}
+
+.colors__choice {
+	transition: 0.2s ease;
+	opacity: 0;
+	position: absolute;
+	width: 101%;
+	height: 101%;
+	top: -0.2px;
+	left: -0.2px;
+	background: rgba(0,0,0,0.2);
+	/*border-radius: 3px;*/
+}
+
+.pick__text {
+	margin-top: 26px;
+	font-size: 14px;
+}
+
+.pick__calculate {
+	width: 311px;
+	margin-top: 47px;
+	margin-bottom: 9px;
+}
+
+.pick__consultation {
+	font-size: 14px;
+	color: #8a8a8a;
+	text-decoration: none;
+	border-bottom: 1px solid #8a8a8a;
+	display: inline;
+}
+

@@ -1,0 +1,37 @@
+.recommend {
+	width: 240px;
+	background: white;
+	padding: 22px 24px 37px;
+	height: 469px;
+	border-radius: 4px;
+}
+
+.recommend__title {
+	color: #4b4b4b;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.recommend__list {
+	margin-top: 22px;
+}
+
+.recommend__item {
+	margin-bottom: 15px;
+
+	&:last-child {
+		margin-bottom: 0px;
+	}
+}
+
+.recommend__link {
+	color: #8a8a8a;
+	text-decoration: none;
+	border-bottom: 1px solid #8a8a8a;
+	display: inline;
+
+	&:hover {
+		color: #eb5825;
+		border-bottom: 1px solid #eb5825;
+	}
+}

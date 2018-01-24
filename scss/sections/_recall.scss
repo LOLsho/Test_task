@@ -1,0 +1,57 @@
+.recall {
+	margin-bottom: 94px;
+}
+
+.recall__wrapper {
+	margin-top: 35px;
+	margin-bottom: 18px;
+}
+
+.recall__more {
+	margin-top: auto;
+	margin-left: auto;
+	font-size: 16px;
+	color: #eb5825;
+	text-decoration: none;
+	border-bottom: 1px solid #eb5825;
+}
+
+.post__name {
+	font-size: 16px;	
+}
+
+.post__contract {
+	margin-top: 4px;
+	font-size: 14px;
+	color: #8a8a8a;
+}
+
+.post__date {
+	font-size: 14px;
+	color: #8a8a8a;
+	margin-bottom: 10px;
+}
+
+.recall__comment {
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.recall__read {
+	color: #eb5825;
+	text-decoration: none;
+	font-size: 16px;
+	margin-top: 14px;
+	font-weight: 100;
+
+	span {
+		margin-left: 4px;
+		border-bottom: 1px dashed #eb5825;
+		margin-top: -3px;
+	}
+}
+
+.recall__left {
+	margin-top: 34px;
+	width: 163px;
+}

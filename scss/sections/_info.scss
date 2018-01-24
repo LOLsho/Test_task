@@ -1,0 +1,67 @@
+.info {
+	margin-top: 25px;
+}
+
+.lamination {
+	margin-top: 20px;
+}
+
+.lamination__item {
+	margin-bottom: 25px;
+	padding-left: 92px;
+	height: 59px;
+}
+
+.lamination__item1 {
+	@extend .lamination__item;
+	background: url('../img/Forma 1.png') no-repeat left center;
+
+	.lamination__text {
+		margin-top: 5px;
+	}
+}
+
+.lamination__item2 {
+	@extend .lamination__item;
+	margin-bottom: 0px;
+	background: url('../img/Shape 1.png') no-repeat left center;
+}
+
+.lamination__text {
+	font-size: 14px;
+}
+
+.info__how {
+	margin-top: 33px;
+}
+
+.colored {
+	margin-top: 20px;
+}
+
+.colored__item {
+	height: 52px;
+}
+
+.circle {
+	width: 34px;
+	height: 34px;
+	border: 2px solid #484848;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 31px;
+	vertical-align: middle;
+	font-size: 20px;
+}
+
+.colored__text {
+	width: 775px;
+	margin-left: auto;
+	font-size: 14px;
+	vertical-align: middle;
+}
+
+.colored__text2 {
+	@extend .colored__text;
+	margin-top: -8px;
+}
